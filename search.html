@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>ShoppingSite</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="slider.css">
+        <!-- <script type="text/javascript" src="slider.js"></script> -->
+        <script type="text/javascript" src="methods.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+
+    <body class="">
+        <div class="row ">
+            <div class="header panel-heading">
+                <div class="col-md-2">
+                    <div class="logo">
+                        <img class="logo" src="https://t4.ftcdn.net/jpg/01/17/90/01/240_F_117900199_B5ggbhVnWtsrw1RIBsgCHsk2KQaX9R9A.jpg">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h2>Online Shopping System</h2>
+                </div>
+                
+            </div>
+        </div>
+        <div class="row bg-1" >
+            <div class="col-md-12">
+
+                <input type="text" name="serach">
+                <button type="button" class="btn btn-primary" onclick="">Search</button>
+
+            </div>
+        </div>
+
+        <div class="row bg-1">
+            <div class="body">
+
+                <div class="details col-md-9">
+                <div class="item_image">
+                    <img class="img-responsive" src="http://static.wixstatic.com/media/ed8cb0_cf71a624824d426b99e2b88697bfd152~mv2.jpg_256">
+                </div>
+                    
+                    <div class="item_details">
+                        <h4>Item Name:</h4>
+                        <h4>Price:</h4>
+                        <h4>Category:</h4>
+                        <h4>Description:</h4>
+                        <h4>Location:</h4>
+                    </div>
+
+                    
+                </div>
+                <div class="col-md-3">
+                    <div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bidModal">Place Bid</button>
+                        <button type="button" class="btn btn-primary" onclick="">Order It Now</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <!-- ----------- -->
+
+        
+
+
+
+        <!-- Modal bid -->
+        <div class="modal fade" id="bidModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Smart TV</h4>
+                    </div>
+                    <div class="modal-body">
+                        
+                        <div class="container">
+                            <label>Current bid: </label>
+                            <label><b>$200.00</b></label>
+                            <input type="text" placeholder="210.00" name="bidValue">
+                            <label class="bidLabel"><b>[7 bids]</b></label>
+                            <button type="button" class="btn btn-primary">Place bid</button>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+  
+
+
+    </body>
+    </html>

@@ -1,0 +1,95 @@
+/**{
+	border: 2px;
+	border-style: solid;
+	}*/
+
+	.bg-1{
+		background-color: #f1f1f1;
+	}
+
+
+	.row{
+		padding: 30px;
+	}
+
+
+
+	.logo{
+		max-width: 100px;
+		max-height: 100px;
+	}
+
+	.details{
+		display: block;
+	}
+
+	h2{
+		font-family:'Roboto', sans-serif;
+		color:black;
+	}
+
+	.header{
+
+	}
+
+
+	input[type=text], input[type=password] {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+	}
+
+
+	.container {
+		border: 3px solid #f1f1f1;
+
+		width: 500px;
+		clear: both;
+	}
+	.container input {
+		width: 100%;
+		clear: both;
+	}
+	.item_image{
+		float:left;
+		width:75%;
+		overflow:hidden;
+	}
+	.item_details{
+		float:left;
+		width:25%;
+		overflow:hidden;
+	}
+
+	.bidLabel{
+		color: blue;
+	}
+
+	#slider{
+		padding: 5px;
+		margin: 5px;
+	}
+
+	input[type="radio"]{
+		vertical-align: baseline;
+		
+	}
+
+	.radio{
+		border-style: solid;
+		border-width: 2px;
+		border-radius: 6px;
+		padding: 3px;
+		border-color: #e0dcdc;
+		size: 30px;
+	}
+
+	.loopContainer1{
+
+		text-transform: capitalize;
+	}
+
+;
